@@ -6,7 +6,7 @@ export default function AboutSlide() {
   const fullText = "About Me";
   const [subDisplayedText, setSubDisplayedText] = useState("");
   const subText =
-    "I’m a BFA student with a deep passion for canvas, color, and creative expression. Art is my way of communicating emotions and capturing the world around me. I love experimenting with textures and mediums, and each piece I create reflects a part of my journey as an artist. For me, art isn't just a skill—it's my voice.";
+    "I’m a BFA student with a deep passion for canvas, color, and creative expression.";
 
   useEffect(() => {
     let mainTimeout, subTimeout;
